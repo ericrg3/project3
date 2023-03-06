@@ -1,0 +1,70 @@
+/* page-container & content-wrap was used from this website 
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+*/
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: 18pt;
+  background-color: steelblue;
+  color: white;
+  word-spacing: 100px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Zeyada', cursive;
+  font-size: 50pt;
+}
+
+h2 {
+  font-family: 'Zeyada', cursive;
+  font-size: 50pt;
+  word-spacing: 0px;
+  
+}
+
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30pt;
+  word-spacing: 0px;
+  
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 1px;
+  background-color: DarkSalmon;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  word-spacing: 0px;
+  position: relative;
+  margin-top: auto;
+}
+
+.animation-name {
+ color: white;
+ animation-duration: 4s;
+ animation-name: colors;
+}
+
+@keyframes colors{
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
