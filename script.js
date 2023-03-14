@@ -49,6 +49,13 @@ inhabitants = ['PEOPLE WHO SLEEP <span style="color:transparent">VERY LITTLE</sp
 //I added different affirmations
 affirmations = ['POWERFUL', 'STRONG', 'CONFIDENT', 'SUCCESSFUL', 'DETERMINED', 'CONTENT', 'BRAVE', 'KIND'];
 
+function displayDate() {
+    document.getElementById("timer").innerHTML = Date();
+  }
+
+  function changeText(id) {
+    id.innerHTML = "Thank You for reading my 'I AM POEM'!";
+  }
 
 function rand_range(maximum) {
     "use strict";
